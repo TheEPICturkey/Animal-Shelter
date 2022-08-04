@@ -1,19 +1,41 @@
-.images {
-float: left;
-width: 30%;
-background-color: coral;
-border: black;
-border-width: 10px; 
-margin-bottom: 10px;
-padding: 20px;
-box-sizing: border-box;
-  
+.animalcolumn {
+  width: 20%;
+  text-align: center;
+  box-sizing: border-box;
+  border: solid gray;
+  border-width: 3px;
+  background-color: blue;
+  float: left;  
 }
 
 img {
- height: 100%;
- width: 100%; 
- object-fit: contain
- 
+  display: block;
+  margin: auto;
+}
 
+.animalcolumn img {
+  margin: auto;
+  width: 30%;
+  height: 30%;
+  display: block;
+}
+
+.animalcolumn h2 {
+  color: blueviolet;
+  font-family: cursive
+}
+
+.animalcolumn h3 {
+  color: rgb(226, 43, 189);
+  font-family: cursive
+}
+
+.animalcolumn h4 {
+  color: rgb(43, 220, 226);
+  font-family: cursive
+}
+
+.animalcolumn h5 {
+  color: rgb(226, 95, 43);
+  font-family: cursive
 }
