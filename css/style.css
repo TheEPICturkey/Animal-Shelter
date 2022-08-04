@@ -1,1 +1,19 @@
-.
+.images {
+float: left;
+width: 30%;
+background-color: coral;
+border: black;
+border-width: 10px; 
+margin-bottom: 10px;
+padding: 20px;
+box-sizing: border-box;
+  
+}
+
+img {
+ height: 100%;
+ width: 100%; 
+ object-fit: contain
+ 
+
+}
